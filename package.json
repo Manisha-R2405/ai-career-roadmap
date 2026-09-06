@@ -1,0 +1,26 @@
+{
+  "name": "ai-career-roadmap",
+  "version": "1.0.0",
+  "description": "AI Career Roadmap Generator - Full Stack Application",
+  "main": "server/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed"
+  },
+  "keywords": [
+    "career",
+    "roadmap",
+    "ai",
+    "education",
+    "career-path"
+  ],
+  "author": "Manisha-R2405",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
